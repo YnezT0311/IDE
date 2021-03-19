@@ -25,12 +25,12 @@ Notice: due to a lack of Debug folder to optimize memory, the following scenario
 
 4. An editor window should pop up already. The user can then enter any program he or she wish to test it, note the following points:
 <br>
-a. If the user simply copy and paste another program inside, the IDE will con- sider not editing is in procress, so make sure in this case, type something extra like a blank space to notify the IDE.<br>
-b. The programming language we supoort is almost the same as C++. Minor di↵erences are in ways of input and output, as well as our main program does not have a return value, libary inclusion and namespace. You can only edit under the main function. PS: You may find some prepared sample test files available under the project folder.<br>
+a. If the user simply copy and paste another program inside, the IDE will con- sider not editing is in procress, so make sure in this case, type something extra like a blank space to notify the IDE.<br><br>
+b. The programming language we supoort is almost the same as C++. Minor di↵erences are in ways of input and output, as well as our main program does not have a return value, libary inclusion and namespace. You can only edit under the main function. PS: You may find some prepared sample test files available under the project folder.<br><br>
 c. The supported functions include all the essentials of empirical programming. For example, arithmetic at any level of complexties, logic operator( and/or ), if, for and while loop, input and output. Four data types are supported: int, char, int array, char array (Like string).
-Notice, the user is recommended to look into appendix C for details about for functions of C++ we support and what di↵erences we have with standard C++. <br>
-d.During editing, we implemented common features of C++ program editor that will bring convinience for the program. These features including, di↵er- ent color for di↵rent syntax, auto-suggestion list of keywords, auto-completion of brackets, state bar for operation instructions etc. The user can look into our editor section to get more details. <br>
-e.When finishing the editing of the program. To execute the program, the user should press the run button directly and then he or she will be prompted to save the file in any directory and the execution follows. <br>
+Notice, the user is recommended to look into appendix C for details about for functions of C++ we support and what di↵erences we have with standard C++. <br><br>
+d.During editing, we implemented common features of C++ program editor that will bring convinience for the program. These features including, di↵er- ent color for di↵rent syntax, auto-suggestion list of keywords, auto-completion of brackets, state bar for operation instructions etc. The user can look into our editor section to get more details. <br><br>
+e.When finishing the editing of the program. To execute the program, the user should press the run button directly and then he or she will be prompted to save the file in any directory and the execution follows. <br><br>
 f.Note, input must be entered in English Mode instead of Chinese or others to ensure the success of the execution. <br>
 
 <br><br>
@@ -40,10 +40,8 @@ By now, we are capable of executing the program and the user should get the inte
 
 <br>
 
-• First, the user can check the same folder he or she stored the original program, there will be two new files that are the corresponding MIPS assembly and binary equivalents, translated by compiler and assembler respectively.
-<br>
-• We believe the simulator is the most crucial component since it can leverage all the work done by the previous ones, from a high level language program, we now have a binary program that follows strict rules and syntax. Therefore, when executing the program, whenever an instruction pointed by the program counter is currently being executed, we will print the its location in memory. Whenever the content of any register is changed, we will print out this information. Whenever a branching occured, the destination will be printed. All data loading from the data segment of main memory will also be wise to the user.
-<br><br>
+• First, the user can check the same folder he or she stored the original program, there will be two new files that are the corresponding MIPS assembly and binary equivalents, translated by compiler and assembler respectively. <br><br>
+• We believe the simulator is the most crucial component since it can leverage all the work done by the previous ones, from a high level language program, we now have a binary program that follows strict rules and syntax. Therefore, when executing the program, whenever an instruction pointed by the program counter is currently being executed, we will print the its location in memory. Whenever the content of any register is changed, we will print out this information. Whenever a branching occured, the destination will be printed. All data loading from the data segment of main memory will also be wise to the user. <br><br>
 • For user-friendly concerns, all helping information mentioned above will be printed out in a di↵rent color then the actual output of the program.
 <br><br>
 
